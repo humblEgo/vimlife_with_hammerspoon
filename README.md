@@ -64,7 +64,7 @@ brew install --cask hammerspoon
 ## 2️⃣ Clone this repository && Execute init.sh
 
 ```
-git clone https://github.com/humblEgo/vimlife_with_hammerspoon.git && ./vimlife_with_hammerspoon/init.sh
+git clone https://github.com/humblEgo/vimlife_with_hammerspoon.git && cd vimlife_with_hammerspoon && ./init.sh
 ```
 
 ## 3️⃣ Execute Hammerspoon
