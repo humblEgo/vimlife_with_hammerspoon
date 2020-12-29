@@ -1,8 +1,9 @@
 # 🍎 vimlife_with_hammerspoon 🔨🥄
 
+Config file and modules in this repository help to apply the key map anywhere in Typora and others.
 Enjoy your vimlife with Hammerspoon!
 
-Config file and modules in this repository help to apply the key map anywhere in Typora and others.
+설정파일 구현과정은 [블로그](https://humblego.tistory.com/11)에서 확인하실 수 있습니다.
 
 # 🍎 Feature
 
@@ -11,12 +12,11 @@ Config file and modules in this repository help to apply the key map anywhere in
 - When you put 'esc' key, input source will be chagned to English if current input source is not English.
 - It will be helpful when usinge vim with non-English input source.
 
-2. **'vim_keymap mode' for noraml document editor like typora.**
+2. **'vim_keymap mode' for text editor like typora, tistory..etc.**
 
+- In fact, it's just a simulation of acting like a vim keymap in a text editor like typora.
 - You can turn on and off 'vim_keymap mode'.
 - Marked by a menu icon, it is easy to see if the function is turned on.
-
-- It will be helpful when usinge vim with non-English input source.
 
 #### List of keys supported
 
@@ -75,3 +75,8 @@ Or just use Spotlight/Alfred.
 
 In my case, execute hammerspoon with 'spotlight'.
 ![image](https://user-images.githubusercontent.com/54612343/103273247-2ff66900-4a02-11eb-8448-1fd6a4e97468.png)
+
+# 🍎 Contributor
+
+I'd appreciate it if you could tell me about the modifications.
+Also, if you want to add a vim keymap, please feel free to send me PR or issue! :)
