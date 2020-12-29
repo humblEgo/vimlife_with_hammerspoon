@@ -48,18 +48,18 @@ local b_bind = hs.hotkey.new({}, "b",
 	function() fastKeyStroke(mod.alt, "left") end):enable()
 local i_bind = hs.hotkey.new({}, "i", 
 	function()
-		hs.eventtap.keyStroke(mod.cmd_and_shift, "space", 30)
+		vim_keymap_obj.set_vim_mode()
 	end):enable()
 local a_bind = hs.hotkey.new({}, "a", 
 	function()
 		fastKeyStroke(mod.empty, "right")
-		hs.eventtap.keyStroke(mod.cmd_and_shift, "space", 30)
+		vim_keymap_obj.set_vim_mode()
 	end):enable()
 local o_bind = hs.hotkey.new({}, "o", 
 	function()
 		fastKeyStroke(mod.cmd, "right")
 		fastKeyStroke(mod.empty, "return")
-		hs.eventtap.keyStroke(mod.cmd_and_shift, "space", 30)
+		vim_keymap_obj.set_vim_mode()
 	end):enable()
 local p_bind = hs.hotkey.new({}, "p", 
 	function()
@@ -77,14 +77,14 @@ local shift_d_bind = hs.hotkey.new({"shift"}, "d",
 local shift_a_bind = hs.hotkey.new({"shift"}, "a", 
 	function()
 		fastKeyStroke(mod.cmd, "right")
-		hs.eventtap.keyStroke(mod.cmd_and_shift, "space", 30)
+		vim_keymap_obj.set_vim_mode()
 	end):enable()
 local shift_o_bind = hs.hotkey.new({"shift"}, "o", 
 	function()
 		fastKeyStroke(mod.cmd, "left")
 		fastKeyStroke(mod.empty, "return")
 		fastKeyStroke(mod.empty, "up")
-		hs.eventtap.keyStroke(mod.cmd_and_shift, "space", 30)
+		vim_keymap_obj.set_vim_mode()
 	end):enable()
 
 -- bind 'y' + 'w' and 'd' + 'b'
