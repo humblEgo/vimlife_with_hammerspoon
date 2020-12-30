@@ -15,7 +15,7 @@ Enjoy your vimlife with Hammerspoon!
 2. **'vim_keymap mode' for text editor like typora, tistory..etc.**
 
 - In fact, it's just a simulation of acting like a vim keymap in a text editor like typora.
-- You can turn on and off 'vim_keymap mode'.
+- You can turn on and off 'vim_keymap mode'. **Default shorcut is {"cmd' + "shift"} + "space".** You can customize it with `~/.hammerspoon/init.lua`.
 - Marked by a menu icon, it is easy to see if the function is turned on.
 
 #### List of keys supported
